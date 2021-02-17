@@ -10,14 +10,14 @@
   "author": "Thuy Vu",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/node": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "chai": "^4.2.0",
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/node": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "chai": "^4.3.0",
     "chai-http": "^4.3.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mocha": "^6.2.0"
+    "mocha": "^8.2.1"
   }
 }

@@ -1,7 +1,7 @@
 class PrimeNumberService {
 
   async getMedianPrimeNumbers(upperLimit) {
-    return fetch(`http://localhost:3001/median_prime_numbers?upper_limit=${upperLimit}`)
+    return fetch(`${process.env.REACT_APP_BACKEND_URI}:${process.env.REACT_APP_BACKEND_PORT}/median_prime_numbers?upper_limit=${upperLimit}`)
       .then(response => {
         if (!response.ok) {
           this.handleResponseError(response);
