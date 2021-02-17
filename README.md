@@ -1,5 +1,5 @@
 ## Sample NPM Fargate App
-*** Note this not production grade and simply meant as a demo ***
+**Note this not production grade and simply meant as a demo**
 
 This repository contains backend and front end components for calculating median prime numbers given an upper limit value
 
