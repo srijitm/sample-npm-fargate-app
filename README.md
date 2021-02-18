@@ -16,7 +16,7 @@ Todo
 2. docker run -p 3001:3001 prime-be
 
 #### Frontend
-We are passing in environment variables which will override the values in the .env
+We are passing in environment variables which will override the values in the .env file
 
 1. docker build . -t prime-fe
 2. docker run -p 8001:8001 --env REACT_APP_BACKEND_URI=http://localhost --env REACT_APP_BACKEND_PORT=3001 prime-fe
